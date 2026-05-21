@@ -19,10 +19,10 @@ This brief presents findings from an independent analysis of Melbourne's metropo
 ## Finding 1 — Frequency disparity: Stony Point is a significant outlier
 
 **What the data shows:**
-Scheduled headway analysis across 17 metro lines reveals that most corridors operate at under 3 minutes between services during AM and PM peak periods. Stony Point is a stark exception at **17.3 minutes AM peak and 17.3 minutes PM peak** — more than five times the headway of the next worst-performing line (Williamstown at 2.5 minutes).
+The PM peak figure is the more operationally significant concern with a **50-minute gap between trains** in the evening means a missed service results in a near-hour wait. This has a direct and material impact on passenger experience for those relying on the line to return home.
 
 **Context:**
-The Stony Point line is a diesel branch requiring a connection at Frankston, which constrains its operational flexibility. However, the scale of the frequency gap relative to the rest of the network is notable and may warrant review as part of any broader service level assessment.
+It should be noted that Stony Point is operationally distinct from the rest of the metropolitan network — it is a diesel branch line requiring an interchange at Frankston, which constrains its operational flexibility and frequency. Whether the current service level is appropriate given these constraints is a question that warrants further investigation. Specifically, cross-referencing station entry data for Stony Point corridor stations against the scheduled frequency would determine whether the gap between service supply and passenger demand is a priority issue for the network.
 
 **Recommendation for further analysis:**
 Compare Stony Point's scheduled frequency against its franchise service level obligations and actual passenger demand at branch stations to determine whether the current headway reflects a deliberate planning decision or a candidate for improvement.
