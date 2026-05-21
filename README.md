@@ -12,8 +12,7 @@ A timetable evaluation project using real GTFS schedule data and Transport Victo
 
 ## Key findings
 
-**1. Stony Point has a 17-minute AM peak headway — 25× worse than most corridors**
-At 17.3 minutes between trains in the morning peak, Stony Point is a significant outlier. Most metro lines run headways under 3 minutes in peak periods. This is partly structural (it's a diesel branch requiring a connection at Frankston) but it represents the largest service frequency gap on the network.
+**1. Stony Point has the largest service gap on the network** — a scheduled train every 30 minutes in the AM peak and every 50 minutes in the PM peak. Most other corridors run between 6–12 minutes. Stony Point is a diesel branch line connecting at Frankston, operationally distinct from the electrified metro network — further investigation into passenger demand on this corridor would determine whether the frequency gap is a priority issue.
 
 **2. CBD stations have a severe PM peak skew — Parliament at 71.6% of daily travel in PM peak alone**
 Passengers overwhelmingly leave the CBD in the evening rather than arrive in the morning. Parliament Station sees 71.6% of its daily weekday entries in the PM peak vs only 3.8% in AM peak. Flagstaff (68.4% PM) and Southern Cross (64.7% PM) show the same pattern. This asymmetry has direct implications for timetable capacity planning — outbound PM services carry far more load than inbound AM.
