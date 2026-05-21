@@ -3,7 +3,7 @@
 
 | | |
 |---|---|
-| **Prepared by** | [Your Name] |
+| **Prepared by** | Hayley Merat |
 | **Date** | May 2026 |
 | **Data** | GTFS timetable (May–Aug 2026) · Station entries FY2024-25 · Monthly patronage 2018–2026 |
 | **Prepared for** | Network Planning and Timetabling |
