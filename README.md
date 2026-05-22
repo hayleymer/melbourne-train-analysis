@@ -14,11 +14,11 @@ A timetable evaluation project using real GTFS schedule data and Transport Victo
 
 **1. Stony Point has the largest service gap on the network** — a scheduled train every 30 minutes in the AM peak and every 50 minutes in the PM peak. Most other corridors run between 6–12 minutes. Stony Point is a diesel branch line connecting at Frankston, operationally distinct from the electrified metro network — further investigation into passenger demand on this corridor would determine whether the frequency gap is a priority issue.
 
-**2. CBD stations have a severe PM peak skew — Parliament at 71.6% of daily travel in PM peak alone**
-Passengers overwhelmingly leave the CBD in the evening rather than arrive in the morning. Parliament Station sees 71.6% of its daily weekday entries in the PM peak vs only 3.8% in AM peak. Flagstaff (68.4% PM) and Southern Cross (64.7% PM) show the same pattern. This asymmetry has direct implications for timetable capacity planning — outbound PM services carry far more load than inbound AM.
+**2. Hurstbridge is the second most under-served corridor** — 19 minutes AM peak, 40 minutes interpeak. Most passengers face a 40-minute wait between trains during the middle of the day, a finding that only became visible after filtering to full-length terminus-to-terminus services.
 
-**3. Sunbury corridor runs 1,212 trips/weekday — 25% more than second-placed Frankston (972)**
-This reflects multi-line sharing through the City Loop. The headway figure for Sunbury (0.7 min) is a product of multiple lines sharing the same stops — it should be interpreted as corridor frequency, not a single-line figure.
+**3. CBD stations have a severe PM peak skew — Parliament at 71.6% of daily entries 
+in PM peak**
+Passengers overwhelmingly leave the CBD in the evening rather than arrive in the morning. Parliament Station sees 71.6% of its daily weekday entries in the PM peak vs only 3.8% in AM peak. Flagstaff (68.4% PM) and Southern Cross (64.7% PM) show the same pattern. This asymmetry has direct implications for timetable capacity planning — outbound PM services carry far more load than inbound AM.
 
 **4. Network patronage has recovered to 75.8% of pre-COVID baseline**
 Recent monthly average: 15.3M passengers. Pre-COVID average: 20.2M. The ~4.9M monthly gap suggests the current timetable may be calibrated to 2019 demand patterns that no longer fully apply — a relevant consideration for any timetable review.
