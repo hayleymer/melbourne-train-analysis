@@ -25,6 +25,17 @@ Recent monthly average: 15.3M passengers. Pre-COVID average: 20.2M. The ~4.9M mo
 
 ---
 
+## Methodology Note
+
+Frequency is calculated by counting unique departures at each line's true outer terminus, using full-length terminus-to-terminus services only. This method is applied consistently across all 16 lines to ensure like-for-like comparison.
+
+Departure times are deduplicated before counting — the GTFS calendar contains multiple overlapping service_ids (e.g. T5, T5_1, T5_2) that represent the same physical train. Without deduplication, each journey appears 2–3 times, artificially inflating frequency. Deduplication on exact departure minute ensures each train is counted once.
+
+Figures represent scheduled frequency at the outer terminus only. Frequency at intermediate stops will be higher as short-running services also call there. This analysis is based on scheduled timetable data only — actual frequency may 
+differ due to delays, cancellations or substitutions.
+
+---
+
 ## Data sources
 
 | File | Source | What it contains |
