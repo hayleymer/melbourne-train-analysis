@@ -65,7 +65,11 @@ Cross-reference corridor-level patronage recovery rates against current schedule
 
 ## Data limitations
 
-- **Headway calculation** uses each trip's first scheduled departure as a proxy for network entry time. This is standard practice but does not account for service irregularity or actual running times.
+Frequency figures are calculated from full-length terminus-to-terminus services 
+only, deduplicated on departure time to remove GTFS calendar artefacts. Results 
+represent scheduled frequency at the outer terminus — frequency at intermediate 
+stops will be higher. Figures reflect the scheduled timetable only; actual 
+on-time performance would require real-time data.
 - **Stony Point / City Loop headways** should be interpreted with care. Low Stony Point headway reflects its operational constraints; low City Loop headways reflect multi-line sharing at shared stops, not a single-line frequency.
 - **Station entries data** reflects FY2024-25 and may not capture the most recent demand shifts. Peak period figures are daily averages, not totals.
 - This analysis is based on the scheduled timetable only. Actual on-time performance data would be needed to assess reliability in addition to frequency.
@@ -78,5 +82,5 @@ Cross-reference corridor-level patronage recovery rates against current schedule
 - Annual Metropolitan Train Station Entries FY2024-25 — Transport Victoria
 - Monthly Public Transport Patronage by Mode — Transport Victoria
 
-Analysis code available at: `github.com/[your-username]/melbourne-train-analysis`
+Analysis code available at: `github.com/hayleymer/melbourne-train-analysis`
 
