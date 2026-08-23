@@ -12,14 +12,14 @@
 
 ## Purpose
 
-This brief presents findings from an independent analysis of Melbourne's metropolitan train timetable and passenger demand data, using publicly available Transport Victoria datasets. It identifies three areas where the current timetable warrants closer examination, and provides patronage context relevant to any future timetable review.
+This brief presents findings from an independent analysis of Melbourne's metropolitan train timetable and passenger-demand data, using publicly available Transport Victoria datasets. The GTFS analysis covers the May–August 2026 timetable window and provides a pre-23-August baseline for examining scheduled service patterns alongside available patronage data.
 
 ---
 
 ## Finding 1 — Frequency disparity: Stony Point is a significant outlier
 
 **What the data shows:**
-The PM peak figure is the more operationally significant concern with a **50-minute gap between trains** in the evening means a missed service results in a near-hour wait. This has a direct and material impact on passenger experience for those relying on the line to return home.
+Stony Point is the largest scheduled-frequency outlier in the May–August timetable window: a train every **30 minutes in the AM peak** and every **50 minutes in the PM peak**. The PM peak figure is the more operationally significant concern: a missed evening service results in a near-hour wait.
 
 **Context:**
 It should be noted that Stony Point is operationally distinct from the rest of the metropolitan network — it is a diesel branch line requiring an interchange at Frankston, which constrains its operational flexibility and frequency. Whether the current service level is appropriate given these constraints is a question that warrants further investigation. Specifically, cross-referencing station entry data for Stony Point corridor stations against the scheduled frequency would determine whether the gap between service supply and passenger demand is a priority issue for the network.
@@ -69,6 +69,7 @@ Cross-reference corridor-level patronage recovery rates against current schedule
 - **Stony Point / City Loop headways** should be interpreted with care. Low Stony Point headway reflects its operational constraints; low City Loop headways reflect multi-line sharing at shared stops, not a single-line frequency.
 - **Station entries data** reflects FY2024-25 and may not capture the most recent demand shifts. Peak period figures are daily averages, not totals.
 - This analysis is based on the scheduled timetable only. Actual on-time performance data would be needed to assess reliability in addition to frequency.
+- The GTFS analysis reflects the May–August 2026 timetable window, before the 23 August Master Timetable change.
 
 ---
 
