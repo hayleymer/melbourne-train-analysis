@@ -16,18 +16,15 @@ A timetable evaluation project using real GTFS schedule data and Transport Victo
 
 **2. Hurstbridge is the second most under-served corridor** — 19 minutes AM peak, 40 minutes interpeak. Most passengers face a 40-minute wait between trains during the middle of the day, a finding that only became visible after filtering to full-length terminus-to-terminus services.
 
-**3. CBD stations have a severe PM peak skew — Parliament at 71.6% of daily entries 
-in PM peak**
-Passengers overwhelmingly leave the CBD in the evening rather than arrive in the morning. Parliament Station sees 71.6% of its daily weekday entries in the PM peak vs only 3.8% in AM peak. Flagstaff (68.4% PM) and Southern Cross (64.7% PM) show the same pattern. This asymmetry has direct implications for timetable capacity planning — outbound PM services carry far more load than inbound AM.
+**3. CBD stations have a severe PM peak skew — Parliament at 71.6% of daily entries in PM peak** — Passengers overwhelmingly leave the CBD in the evening rather than arrive in the morning. Parliament Station sees 71.6% of its daily weekday entries in the PM peak vs only 3.8% in AM peak. Flagstaff (68.4% PM) and Southern Cross (64.7% PM) show the same pattern. This asymmetry has direct implications for timetable capacity planning — outbound PM services carry far more load than inbound AM.
 
-**4. Network patronage has recovered to 75.8% of pre-COVID baseline**
-Recent monthly average: 15.3M passengers. Pre-COVID average: 20.2M. The ~4.9M monthly gap suggests the current timetable may be calibrated to 2019 demand patterns that no longer fully apply — a relevant consideration for any timetable review.
+**4. Network patronage has recovered to 75.8% of pre-COVID baseline** — Recent monthly average: 15.3M passengers. Pre-COVID average: 20.2M. The ~4.9M monthly gap suggests the current timetable may be calibrated to 2019 demand patterns that no longer fully apply — a relevant consideration for any timetable review.
 
 ---
 
 ## Methodology Note
 
-Frequency is calculated by counting unique departures at each line's true outer terminus, using full-length terminus-to-terminus services only. This method is applied consistently across all 16 lines to ensure like-for-like comparison.
+Frequency is calculated by counting unique departures at each line's true outer terminus, using full-length terminus-to-terminus services only. This method is applied consistently across all 17 lines to ensure like-for-like comparison.
 
 Departure times are deduplicated before counting — the GTFS calendar contains multiple overlapping service_ids (e.g. T5, T5_1, T5_2) that represent the same physical train. Without deduplication, each journey appears 2–3 times, artificially inflating frequency. Deduplication on exact departure minute ensures each train is counted once.
 
