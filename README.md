@@ -24,7 +24,7 @@ A timetable evaluation project using real GTFS schedule data and Transport Victo
 
 ## Methodology Note
 
-Frequency is calculated by counting unique departures at each line's true outer terminus, using full-length terminus-to-terminus services only. This method is applied consistently across all 17 lines to ensure like-for-like comparison.
+Frequency is calculated by counting unique departures at each line's true outer terminus, using full-length terminus-to-terminus services only. This method is applied consistently across all 16 lines to ensure like-for-like comparison.
 
 Departure times are deduplicated before counting — the GTFS calendar contains multiple overlapping service_ids (e.g. T5, T5_1, T5_2) that represent the same physical train. Without deduplication, each journey appears 2–3 times, artificially inflating frequency. Deduplication on exact departure minute ensures each train is counted once.
 
